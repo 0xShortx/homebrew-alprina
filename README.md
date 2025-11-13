@@ -6,10 +6,15 @@ This is the official Homebrew tap for Alprina CLI.
 
 ```bash
 # Add the tap
-brew tap alprina/tap
+brew tap 0xShortx/alprina
 
 # Install alprina-cli
 brew install alprina-cli
+```
+
+Or install in one command:
+```bash
+brew install 0xShortx/alprina/alprina-cli
 ```
 
 ## Quick Start
