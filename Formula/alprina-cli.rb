@@ -3,8 +3,8 @@ class AlprinaCli < Formula
 
   desc "AI-powered cybersecurity CLI for developers"
   homepage "https://alprina.com"
-  url "https://files.pythonhosted.org/packages/source/a/alprina-cli/alprina_cli-0.3.1.tar.gz"
-  sha256 "f08b58f10f33f71bd084b1402dc08b0f3164cb9af48dec7e0bb14629e560bc3b"
+  url "https://files.pythonhosted.org/packages/76/a7/1f059bb23dfe00a50dd59ff29ff4fe57e3b6d11da00dc8ced45de15d6e13/alprina_cli-0.4.6.tar.gz"
+  sha256 "2693c7cca78633cf02fd7148542904a53ea199a63db603dd97c119763529335d"
   license "Proprietary"
 
   depends_on "python@3.11"
@@ -126,6 +126,6 @@ class AlprinaCli < Formula
 
   test do
     system "#{bin}/alprina", "--version"
-    assert_match "Alprina CLI version 0.3.1", shell_output("#{bin}/alprina --version 2>&1")
+    assert_match "Alprina CLI version 0.4.6", shell_output("#{bin}/alprina --version 2>&1")
   end
 end
